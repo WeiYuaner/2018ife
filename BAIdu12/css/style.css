@@ -1,0 +1,6 @@
+.mainDiretion{width:100px;background-color:#1d2531;position: fixed;bottom:0;top:0;left:0;padding:20px;box-sizing: border-box;}
+.mainDiretion > ul li+li:not(:last-of-type){margin-top:20px;}
+.mainDiretion > ul > li:last-of-type{position:fixed;bottom:20px;}
+.mainDiretion > ul li:last-of-type ul li{display: inline-block;}
+.mainDiretion > ul li:last-of-type ul li+li{margin-left:16px;}
+.asideDiretion{padding:19px 30px 22px 27px;width:190px;background-color: #222c3c;position: fixed;top:0;bottom:0;margin-left:100px;}
